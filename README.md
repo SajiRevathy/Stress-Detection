@@ -9,9 +9,7 @@ This project focuses on detecting psychological stress from social media data by
 Psychological stress has become a major concern in modern society. Traditional stress detection methods such as questionnaires, interviews, and wearable sensors are:
 
 Time-consuming
-
 Labor-intensive
-
 Not suitable for large-scale analysis
 
 Social media data provides an opportunity to detect stress automatically and at scale by analyzing users’ posts and interactions.
@@ -19,79 +17,53 @@ Social media data provides an opportunity to detect stress automatically and at 
 **Objectives**
 
 The main objectives of this project are:
-
 Detect stress levels from social media content.
-
 Analyze user behavior and interactions on social networks.
-
 Extract meaningful features from posts such as text, images, and social responses.
-
 Build a machine learning model capable of predicting stress levels.
-
 Improve stress detection accuracy by combining content features and social interactions.
 
 **Proposed System**
 
 The system proposes a hybrid model combining CNN and Factor Graph Models for detecting stress.
-
 The workflow includes:
 
 Attribute Extraction
-
 Classification
-
 Correlation and Prediction
-
 Tweet-level and user-level attributes are analyzed to determine stress levels.
 
 **System Architecture**
 1. Attribute Extraction
+Attributes are extracted from users’ social media posts including:
+Linguistic features
+        Emotion words
+        Punctuation marks
+        Emojis
 
-        Attributes are extracted from users’ social media posts including:
-        
-        Linguistic features
-        
-                Emotion words
-                
-                Punctuation marks
-                
-                Emojis
-        
-        Visual features
-        
-                Image colors
-                
-                Brightness
-                
-                Saturation
-        
-        Social features
-        
-                Likes
-                
-                Retweets
-                
-                Comments
-        
-        These features help in understanding the user's emotional state.
+Visual features
+        Image colors
+        Brightness
+        Saturation
+
+Social features
+        Likes
+        Retweets
+        Comments
+These features help in understanding the user's emotional state.
 
 2. Classification
 
-        A Convolutional Neural Network (CNN) with Cross Autoencoders (CAE) is used to analyze extracted features and generate user-level attributes.
-        
-        CNN helps learn complex patterns from tweet sequences and multimedia data.
+A Convolutional Neural Network (CNN) with Cross Autoencoders (CAE) is used to analyze extracted features and generate user-level attributes.
+CNN helps learn complex patterns from tweet sequences and multimedia data.
 
 3. Correlation and Prediction
 
-        A Partially Labeled Factor Graph Model (PFG) is used to combine:
-        
+A Partially Labeled Factor Graph Model (PFG) is used to combine:
         User interaction attributes
-        
         Posting behavior
-        
         Content attributes
-        
-        This model predicts whether the user is experiencing stress.
+This model predicts whether the user is experiencing stress.
 
 **Technologies Used**
 Programming Language: Python
@@ -112,19 +84,13 @@ System Requirements
 Software Requirements
 
 Ubuntu OS
-
 Python
-
 MySQL
-
 Hadoop
-
 Apache HTTP Server
-
 HTML / PHP (for interface)
 
 Hardware Requirements
-
 Standard computing system capable of running Hadoop and Python-based applications.
 
 **Applications**
@@ -132,24 +98,17 @@ Standard computing system capable of running Hadoop and Python-based application
 This project can be useful for:
 
 Mental health monitoring systems
-
 Social media analytics
-
 Stress detection research
-
 Healthcare analytics
-
 Organizations monitoring mental wellness
 
 **Advantages**
 
-Automatic stress detection from social media
-
-Utilizes multiple data types (text, image, interactions)
-
-Scalable for large datasets
-
-Can help in early mental health intervention
+1. Automatic stress detection from social media
+2. Utilizes multiple data types (text, image, interactions)
+3. Scalable for large datasets
+4. Can help in early mental health intervention
 
 **Future Improvements**
 
