@@ -9,7 +9,9 @@ This project focuses on detecting psychological stress from social media data by
 Psychological stress has become a major concern in modern society. Traditional stress detection methods such as questionnaires, interviews, and wearable sensors are:
 
 Time-consuming
+
 Labor-intensive
+
 Not suitable for large-scale analysis
 
 Social media data provides an opportunity to detect stress automatically and at scale by analyzing users’ posts and interactions.
@@ -17,10 +19,15 @@ Social media data provides an opportunity to detect stress automatically and at 
 **Objectives**
 
 The main objectives of this project are:
+
 Detect stress levels from social media content.
+
 Analyze user behavior and interactions on social networks.
+
 Extract meaningful features from posts such as text, images, and social responses.
+
 Build a machine learning model capable of predicting stress levels.
+
 Improve stress detection accuracy by combining content features and social interactions.
 
 **Proposed System**
@@ -28,9 +35,13 @@ Improve stress detection accuracy by combining content features and social inter
 The system proposes a hybrid model combining CNN and Factor Graph Models for detecting stress.
 The workflow includes:
 
+
 Attribute Extraction
+
 Classification
+
 Correlation and Prediction
+
 Tweet-level and user-level attributes are analyzed to determine stress levels.
 
 **System Architecture**
@@ -68,50 +79,51 @@ Tweet-level and user-level attributes are analyzed to determine stress levels.
 
 **Technologies Used**
 
-Programming Language: Python
-Platform: Hadoop
-Database: MySQL
-Libraries/Tools:
-        OpenCV
-        Machine Learning Libraries
-        NLP techniques
-**System Requirements**
-
-Software Requirements
-
-Ubuntu OS
-Python
-MySQL
-Hadoop
-Apache HTTP Server
-HTML / PHP (for interface)
+        Programming Language: Python
+        Platform: Hadoop
+        Database: MySQL
+        Libraries/Tools:
+                OpenCV
+                Machine Learning Libraries
+                NLP techniques
+        **System Requirements**
+        
+        Software Requirements
+        
+        Ubuntu OS
+        Python
+        MySQL
+        Hadoop
+        Apache HTTP Server
+        HTML / PHP (for interface)
 
 Hardware Requirements
-Standard computing system capable of running Hadoop and Python-based applications.
+
+        Standard computing system capable of running Hadoop and Python-based applications.
 
 **Applications**
 
 This project can be useful for:
 
-Mental health monitoring systems
-Social media analytics
-Stress detection research
-Healthcare analytics
-Organizations monitoring mental wellness
+        Mental health monitoring systems
+        Social media analytics
+        Stress detection research
+        Healthcare analytics
+        Organizations monitoring mental wellness
 
 **Advantages**
 
-1. Automatic stress detection from social media
-2. Utilizes multiple data types (text, image, interactions)
-3. Scalable for large datasets
-4. Can help in early mental health intervention
+        1. Automatic stress detection from social media
+        2. Utilizes multiple data types (text, image, interactions)
+        3. Scalable for large datasets
+        4. Can help in early mental health intervention
 
 **Future Improvements**
 
-1. Integration with real-time social media APIs
-2. Use of advanced deep learning models such as Transformers
-3. Mobile application for stress monitoring
-4. Real-time mental health alert systems
+        1. Integration with real-time social media APIs
+        2. Use of advanced deep learning models such as Transformers
+        3. Mobile application for stress monitoring
+        4. Real-time mental health alert systems
 
 **Conclusion**
 
