@@ -1,10 +1,10 @@
-**Detecting Stress Based on Social Interactions in Social Networks**
+## Detecting Stress Based on Social Interactions in Social Networks
 
-**Overview**
+### Overview
 
 This project focuses on detecting psychological stress from social media data by analyzing users’ posts and interactions on social networking platforms. With the increasing use of platforms like Twitter and Facebook, people frequently share their emotions, daily experiences, and interactions online. These digital footprints can provide valuable insights into a person's mental state.The system analyzes textual content, visual data, and social interactions to determine whether a user is experiencing stress. The model combines Convolutional Neural Networks (CNN) and Factor Graph Models (FGM) to improve stress detection accuracy.Early detection of stress can help in providing timely support and preventing serious mental health issues.
 
-**Problem Statement**
+### Problem Statement
 
 Psychological stress has become a major concern in modern society. Traditional stress detection methods such as questionnaires, interviews, and wearable sensors are:
 
@@ -16,19 +16,19 @@ Not suitable for large-scale analysis
 
 Social media data provides an opportunity to detect stress automatically and at scale by analyzing users’ posts and interactions.
 
-**Objectives**
+### Objectives
 
 The main objectives of this project are:
 
-Detect stress levels from social media content.
+* Detect stress levels from social media content.
 
-Analyze user behavior and interactions on social networks.
+* Analyze user behavior and interactions on social networks.
 
-Extract meaningful features from posts such as text, images, and social responses.
+* Extract meaningful features from posts such as text, images, and social responses.
 
-Build a machine learning model capable of predicting stress levels.
+* Build a machine learning model capable of predicting stress levels.
 
-Improve stress detection accuracy by combining content features and social interactions.
+* Improve stress detection accuracy by combining content features and social interactions.
 
 **Proposed System**
 
@@ -36,13 +36,13 @@ The system proposes a hybrid model combining CNN and Factor Graph Models for det
 The workflow includes:
 
 
-Attribute Extraction
+**Attribute Extraction**
 
-Classification
+1. Classification
 
-Correlation and Prediction
+2. Correlation and Prediction
 
-Tweet-level and user-level attributes are analyzed to determine stress levels.
+3. Tweet-level and user-level attributes are analyzed to determine stress levels.
 
 **System Architecture**
 1. Attribute Extraction
