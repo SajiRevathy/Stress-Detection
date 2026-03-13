@@ -35,35 +35,36 @@ Tweet-level and user-level attributes are analyzed to determine stress levels.
 
 **System Architecture**
 1. Attribute Extraction
-Attributes are extracted from users’ social media posts including:
-Linguistic features
-        Emotion words
-        Punctuation marks
-        Emojis
 
-Visual features
-        Image colors
-        Brightness
-        Saturation
+        Attributes are extracted from users’ social media posts including:
+        Linguistic features
+                Emotion words
+                Punctuation marks
+                Emojis
 
-Social features
-        Likes
-        Retweets
-        Comments
-These features help in understanding the user's emotional state.
+        Visual features
+                Image colors
+                Brightness
+                Saturation
+
+        Social features
+                Likes
+                Retweets
+                Comments
+        These features help in understanding the user's emotional state.
 
 2. Classification
 
-A Convolutional Neural Network (CNN) with Cross Autoencoders (CAE) is used to analyze extracted features and generate user-level attributes.
-CNN helps learn complex patterns from tweet sequences and multimedia data.
+        A Convolutional Neural Network (CNN) with Cross Autoencoders (CAE) is used to analyze extracted features and                 generate user-level attributes.
+        CNN helps learn complex patterns from tweet sequences and multimedia data.
 
 3. Correlation and Prediction
 
-A Partially Labeled Factor Graph Model (PFG) is used to combine:
-        User interaction attributes
-        Posting behavior
-        Content attributes
-This model predicts whether the user is experiencing stress.
+        A Partially Labeled Factor Graph Model (PFG) is used to combine:
+                User interaction attributes
+                Posting behavior
+                Content attributes
+        This model predicts whether the user is experiencing stress.
 
 **Technologies Used**
 Programming Language: Python
