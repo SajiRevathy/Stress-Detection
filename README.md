@@ -67,21 +67,16 @@ Tweet-level and user-level attributes are analyzed to determine stress levels.
         This model predicts whether the user is experiencing stress.
 
 **Technologies Used**
+
 Programming Language: Python
-
 Platform: Hadoop
-
 Database: MySQL
-
 Libraries/Tools:
+        OpenCV
+        Machine Learning Libraries
+        NLP techniques
+**System Requirements**
 
-OpenCV
-
-Machine Learning Libraries
-
-NLP techniques
-
-System Requirements
 Software Requirements
 
 Ubuntu OS
