@@ -1,13 +1,10 @@
-Detecting Stress Based on Social Interactions in Social Networks
-Overview
+**Detecting Stress Based on Social Interactions in Social Networks**
 
-This project focuses on detecting psychological stress from social media data by analyzing users’ posts and interactions on social networking platforms. With the increasing use of platforms like Twitter and Facebook, people frequently share their emotions, daily experiences, and interactions online. These digital footprints can provide valuable insights into a person's mental state.
+**Overview**
 
-The system analyzes textual content, visual data, and social interactions to determine whether a user is experiencing stress. The model combines Convolutional Neural Networks (CNN) and Factor Graph Models (FGM) to improve stress detection accuracy.
+This project focuses on detecting psychological stress from social media data by analyzing users’ posts and interactions on social networking platforms. With the increasing use of platforms like Twitter and Facebook, people frequently share their emotions, daily experiences, and interactions online. These digital footprints can provide valuable insights into a person's mental state.The system analyzes textual content, visual data, and social interactions to determine whether a user is experiencing stress. The model combines Convolutional Neural Networks (CNN) and Factor Graph Models (FGM) to improve stress detection accuracy.Early detection of stress can help in providing timely support and preventing serious mental health issues.
 
-Early detection of stress can help in providing timely support and preventing serious mental health issues.
-
-Problem Statement
+**Problem Statement**
 
 Psychological stress has become a major concern in modern society. Traditional stress detection methods such as questionnaires, interviews, and wearable sensors are:
 
@@ -19,7 +16,7 @@ Not suitable for large-scale analysis
 
 Social media data provides an opportunity to detect stress automatically and at scale by analyzing users’ posts and interactions.
 
-Objectives
+**Objectives**
 
 The main objectives of this project are:
 
@@ -33,7 +30,7 @@ Build a machine learning model capable of predicting stress levels.
 
 Improve stress detection accuracy by combining content features and social interactions.
 
-Proposed System
+**Proposed System**
 
 The system proposes a hybrid model combining CNN and Factor Graph Models for detecting stress.
 
@@ -145,7 +142,7 @@ Healthcare analytics
 
 Organizations monitoring mental wellness
 
-Advantages
+**Advantages**
 
 Automatic stress detection from social media
 
@@ -155,7 +152,7 @@ Scalable for large datasets
 
 Can help in early mental health intervention
 
-Future Improvements
+**Future Improvements**
 
 Integration with real-time social media APIs
 
@@ -165,6 +162,6 @@ Mobile application for stress monitoring
 
 Real-time mental health alert systems
 
-Conclusion
+**Conclusion**
 
 This project demonstrates that social media data can be effectively used to detect psychological stress. By analyzing user posts, interactions, and behavior patterns, the system can identify stress indicators and help in early mental health monitoring.
