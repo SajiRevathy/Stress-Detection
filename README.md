@@ -51,11 +51,11 @@ Attributes are extracted from users’ social media posts including:
 
 Linguistic features
 
-Emotion words
-
-Punctuation marks
-
-Emojis
+        Emotion words
+        
+        Punctuation marks
+        
+        Emojis
 
 Visual features
 
