@@ -153,13 +153,10 @@ Can help in early mental health intervention
 
 **Future Improvements**
 
-Integration with real-time social media APIs
-
-Use of advanced deep learning models such as Transformers
-
-Mobile application for stress monitoring
-
-Real-time mental health alert systems
+1. Integration with real-time social media APIs
+2. Use of advanced deep learning models such as Transformers
+3. Mobile application for stress monitoring
+4. Real-time mental health alert systems
 
 **Conclusion**
 
