@@ -44,57 +44,56 @@ Correlation and Prediction
 
 Tweet-level and user-level attributes are analyzed to determine stress levels.
 
-System Architecture
+**System Architecture**
 1. Attribute Extraction
 
-Attributes are extracted from users’ social media posts including:
-
-Linguistic features
-
-        Emotion words
+        Attributes are extracted from users’ social media posts including:
         
-        Punctuation marks
+        Linguistic features
         
-        Emojis
-
-Visual features
-
-Image colors
-
-Brightness
-
-Saturation
-
-Social features
-
-Likes
-
-Retweets
-
-Comments
-
-These features help in understanding the user's emotional state.
+                Emotion words
+                
+                Punctuation marks
+                
+                Emojis
+        
+        Visual features
+        
+                Image colors
+                
+                Brightness
+                
+                Saturation
+        
+        Social features
+        
+                Likes
+                
+                Retweets
+                
+                Comments
+        
+        These features help in understanding the user's emotional state.
 
 2. Classification
 
-A Convolutional Neural Network (CNN) with Cross Autoencoders (CAE) is used to analyze extracted features and generate user-level attributes.
-
-CNN helps learn complex patterns from tweet sequences and multimedia data.
+        A Convolutional Neural Network (CNN) with Cross Autoencoders (CAE) is used to analyze extracted features and generate user-level attributes.
+        
+        CNN helps learn complex patterns from tweet sequences and multimedia data.
 
 3. Correlation and Prediction
 
-A Partially Labeled Factor Graph Model (PFG) is used to combine:
+        A Partially Labeled Factor Graph Model (PFG) is used to combine:
+        
+        User interaction attributes
+        
+        Posting behavior
+        
+        Content attributes
+        
+        This model predicts whether the user is experiencing stress.
 
-User interaction attributes
-
-Posting behavior
-
-Content attributes
-
-This model predicts whether the user is experiencing stress.
-
-Technologies Used
-
+**Technologies Used**
 Programming Language: Python
 
 Platform: Hadoop
@@ -128,7 +127,7 @@ Hardware Requirements
 
 Standard computing system capable of running Hadoop and Python-based applications.
 
-Applications
+**Applications**
 
 This project can be useful for:
 
